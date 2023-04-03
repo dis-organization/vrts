@@ -1,0 +1,2520 @@
+<VRTDataset rasterXSize="384" rasterYSize="190">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["Coordinate System imported from GRIB file",DATUM["unnamed",SPHEROID["Sphere",6371229,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST]]</SRS>
+  <GeoTransform>  0.0000000000000000e+00,  9.3750000000000000e-01,  0.0000000000000000e+00,  9.0000000000000000e+01,  0.0000000000000000e+00, -9.4736842105263153e-01</GeoTransform>
+  <VRTRasterBand dataType="Float64" band="1" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Momentum flux; u component [N/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">UFLX</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 17 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 17 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[N/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>UFLX:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="2" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Momentum flux; v component [N/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">VFLX</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 18 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 18 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[N/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>VFLX:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="3" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Sensible heat net flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SHTFL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 11 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 11 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SHTFL:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="4" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Latent heat net flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">LHTFL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 10 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 10 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>LHTFL:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="5" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>5</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="6" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Volumetric Soil Moisture Content [Fraction]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILW</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 192 2 0 98 0 0 1 6 106 2 0 106 2 10</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 0 106 2 0 0 0 10</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILW:0-0.1 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>6</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="7" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Volumetric Soil Moisture Content [Fraction]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILW</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 192 2 0 98 0 0 1 6 106 2 10 106 2 40</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 10 106 2 0 0 0 40</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILW:0.1-0.4 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>7</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="8" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 106 2 0 106 2 10</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 0 106 2 0 0 0 10</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:0-0.1 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>8</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="9" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 106 2 10 106 2 40</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 10 106 2 0 0 0 40</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:0.1-0.4 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>9</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="10" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Water equivalent of accumulated snow depth [kg/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">WEASD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 13 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 13 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>WEASD:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>10</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="11" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Downward Long-Wave Rad. Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">DLWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">5 192 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">5 192 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>DLWRF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>11</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="12" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Upward Long-Wave Rad. Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">ULWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">5 193 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">5 193 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>ULWRF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>12</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="13" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Upward Long-Wave Rad. Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">ULWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">5 193 2 0 98 0 0 1 6 8 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">5 193 2 0 98 0 0 0 1 0 0 0 6 8 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-NTAT</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>ULWRF:top of atmosphere:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>13</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="14" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Upward Short-Wave Rad. Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">USWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 193 2 0 98 0 0 1 6 8 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 193 2 0 98 0 0 0 1 0 0 0 6 8 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-NTAT</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>USWRF:top of atmosphere:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>14</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="15" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Upward Short-Wave Rad. Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">USWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 193 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 193 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>USWRF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>15</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="16" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Downward Short-Wave Rad. Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">DSWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 192 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 192 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>DSWRF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>16</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="17" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">UV-B downward solar flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">DUVB</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 194 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 194 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>DUVB:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>17</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="18" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Clear sky UV-B downward solar flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CDUVB</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 195 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 195 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CDUVB:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>18</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="19" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Total cloud cover [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TCDC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">6 1 2 0 98 0 0 1 6 234 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">6 1 2 0 98 0 0 0 1 0 0 0 6 234 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-HCY</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TCDC:high cloud layer:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>19</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="20" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 233 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 233 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-HCTL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:high cloud top level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>20</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="21" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 232 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 232 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-HCBL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:high cloud bottom level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>21</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="22" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 233 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 233 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-HCTL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:high cloud top level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>22</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="23" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Total cloud cover [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TCDC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">6 1 2 0 98 0 0 1 6 224 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">6 1 2 0 98 0 0 0 1 0 0 0 6 224 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-MCY</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TCDC:middle cloud layer:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>23</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="24" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 223 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 223 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-MCTL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:middle cloud top level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>24</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="25" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 222 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 222 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-MCBL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:middle cloud bottom level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>25</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="26" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 223 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 223 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-MCTL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:middle cloud top level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>26</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="27" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Total cloud cover [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TCDC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">6 1 2 0 98 0 0 1 6 214 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">6 1 2 0 98 0 0 0 1 0 0 0 6 214 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-LCY</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TCDC:low cloud layer:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>27</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="28" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 213 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 213 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-LCTL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:low cloud top level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>28</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="29" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 212 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 212 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-LCBL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:low cloud bottom level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>29</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="30" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 213 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 213 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-LCTL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:low cloud top level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>30</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="31" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Precipitation rate [kg/(m^2 s)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRATE</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 7 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 7 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2 s)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRATE:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>31</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="32" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Convective Precipitation Rate [kg/(m^2*s)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CPRAT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 196 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 196 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2*s)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CPRAT:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>32</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="33" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Ground Heat Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">GFLUX</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 193 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 193 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>GFLUX:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>33</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="34" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Land cover (1=land; 2=sea) [Proportion]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">LAND</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Proportion]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>LAND:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>34</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="35" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Ice cover [Proportion]</MDI>
+      <MDI key="GRIB_DISCIPLINE">10(Oceanographic_Products)</MDI>
+      <MDI key="GRIB_ELEMENT">ICEC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 0 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 0 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Proportion]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>ICEC:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>35</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="36" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">u-component of wind [m/s]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">UGRD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 2 2 0 98 0 0 1 6 103 0 10 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 2 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 10 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">10-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>UGRD:10 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>36</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="37" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">v-component of wind [m/s]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">VGRD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 3 2 0 98 0 0 1 6 103 0 10 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 3 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 10 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">10-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>VGRD:10 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>37</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="38" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 103 0 2 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 2 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">2-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:2 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>38</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="39" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Specific humidity [kg/kg]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SPFH</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 0 2 0 98 0 0 1 6 103 0 2 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 0 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 2 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">2-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[kg/kg]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SPFH:2 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>39</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="40" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>40</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="41" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Maximum temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMAX</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 4 2 0 98 0 0 1 6 103 0 2 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 4 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 2 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">2-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMAX:2 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>41</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="42" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Minimum temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMIN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 5 2 0 98 0 0 1 6 103 0 2 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 5 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 2 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">2-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMIN:2 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>42</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="43" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Maximum specific humidity at 2m [kg/kg]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">QMAX</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 219 2 0 98 0 0 1 6 103 0 2 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 219 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 2 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">2-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[kg/kg]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>QMAX:2 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>43</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="44" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Minimum specific humidity at 2m [kg/kg]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">QMIN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 220 2 0 98 0 0 1 6 103 0 2 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 220 2 0 98 0 0 0 1 0 0 0 6 103 0 0 0 0 2 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">2-HTGL</MDI>
+      <MDI key="GRIB_UNIT">[kg/kg]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>QMIN:2 m above ground:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>44</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="45" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Water runoff [kg/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">WATR</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 5 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 5 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>WATR:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>45</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="46" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Potential Evaporation Rate [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PEVPR</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 200 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 200 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PEVPR:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>46</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="47" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Cloud Work Function [J/kg]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CWORK</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">6 193 2 0 98 0 0 1 6 200 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">6 193 2 0 98 0 0 0 1 0 0 0 6 200 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-EATM</MDI>
+      <MDI key="GRIB_UNIT">[J/kg]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CWORK:entire atmosphere (considered as a single layer):6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>47</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="48" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Zonal Flux of Gravity Wave Stress [N/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">U-GWD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 194 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 194 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[N/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>U-GWD:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>48</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="49" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Meridional Flux of Gravity Wave Stress [N/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">V-GWD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 195 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 195 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[N/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>V-GWD:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>49</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="50" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Planetary Boundary Layer Height [m]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">HPBL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 196 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 196 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>HPBL:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>50</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="51" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Precipitable water [kg/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PWAT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 3 2 0 98 0 0 1 6 200 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 3 2 0 98 0 0 0 1 0 0 0 6 200 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-EATM</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PWAT:entire atmosphere (considered as a single layer):6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>51</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="52" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Albedo [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">ALBDO</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">19 1 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">19 1 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>ALBDO:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>52</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="53" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Total cloud cover [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TCDC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">6 1 2 0 98 0 0 1 6 200 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">6 1 2 0 98 0 0 0 1 0 0 0 6 200 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-EATM</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TCDC:entire atmosphere (considered as a single layer):6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>53</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="54" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Total cloud cover [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TCDC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">6 1 2 0 98 0 0 1 6 244 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">6 1 2 0 98 0 0 0 1 0 0 0 6 244 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-CCY</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TCDC:convective cloud layer:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>54</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="55" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 243 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 243 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-CCTL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:convective cloud top level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>55</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="56" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Pressure [Pa]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">PRES</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 242 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 242 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-CCBL</MDI>
+      <MDI key="GRIB_UNIT">[Pa]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>PRES:convective cloud bottom level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>56</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="57" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Total cloud cover [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TCDC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">6 1 2 0 98 0 0 1 6 211 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">6 1 2 0 98 0 0 0 1 0 0 0 6 211 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-BCY</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TCDC:boundary layer cloud layer:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>57</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="58" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Ice thinkness [m]</MDI>
+      <MDI key="GRIB_DISCIPLINE">10(Oceanographic_Products)</MDI>
+      <MDI key="GRIB_ELEMENT">ICETK</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 1 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 1 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>ICETK:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>58</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="59" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Volumetric Soil Moisture Content [Fraction]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILW</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 192 2 0 98 0 0 1 6 106 2 40 106 2 100</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 40 106 2 0 0 0 100</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0.01-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILW:0.4-1 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>59</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="60" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Volumetric Soil Moisture Content [Fraction]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILW</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 192 2 0 98 0 0 1 6 106 2 100 106 2 200</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 100 106 2 0 0 0 200</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0.01-0.02-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILW:1-2 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>60</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="61" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 106 2 40 106 2 100</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 40 106 2 0 0 0 100</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0.01-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:0.4-1 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>61</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="62" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 106 2 100 106 2 200</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 100 106 2 0 0 0 200</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0.01-0.02-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:1-2 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>62</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="63" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid Volumetric Soil Moisture (non Frozen) [Proportion]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 192 2 0 98 0 0 1 6 106 2 0 106 2 10</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 0 106 2 0 0 0 10</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Proportion]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILL:0-0.1 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>63</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="64" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid Volumetric Soil Moisture (non Frozen) [Proportion]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 192 2 0 98 0 0 1 6 106 2 10 106 2 40</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 10 106 2 0 0 0 40</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Proportion]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILL:0.1-0.4 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>64</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="65" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid Volumetric Soil Moisture (non Frozen) [Proportion]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 192 2 0 98 0 0 1 6 106 2 40 106 2 100</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 40 106 2 0 0 0 100</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0.01-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Proportion]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILL:0.4-1 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>65</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="66" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid Volumetric Soil Moisture (non Frozen) [Proportion]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 192 2 0 98 0 0 1 6 106 2 100 106 2 200</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 192 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 100 106 2 0 0 0 200</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0.01-0.02-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[Proportion]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILL:1-2 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>66</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="67" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snow depth [m]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SNOD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 11 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 11 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SNOD:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>67</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="68" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Plant Canopy Surface Water [kg/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">CNWAT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 196 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 196 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CNWAT:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>68</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="69" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Surface roughness [m]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SFCR</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 1 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 1 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SFCR:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>69</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="70" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Vegetation [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">VEG</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 4 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 4 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>VEG:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>70</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="71" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Vegetation Type [0..13]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">VGTYP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 198 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 198 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[0..13]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>VGTYP:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>71</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="72" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil type [0=Reserved; 1=Sand; 2=Loamy sand; 3=Sandy loam; 4=Silt loam; 5=Organic (redefined); 6=Sandy clay loam; 7=Silt clay loam; 8=Clay loam; 9=Sandy clay; 10=Silty clay; 11=Clay; 12-191=Reserved; 192-254=Reserved for local use; 255=Missing]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOTYP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 0 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 0 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[0=Reserved; 1=Sand; 2=Loamy sand; 3=Sandy loam; 4=Silt loam; 5=Organic (redefined); 6=Sandy clay loam; 7=Silt clay loam; 8=Clay loam; 9=Sandy clay; 10=Silty clay; 11=Clay; 12-191=Reserved; 192-254=Reserved for local use; 255=Missing]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOTYP:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>72</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="73" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Surface Slope Type [Index]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SLTYP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 194 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 194 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Index]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SLTYP:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>73</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="74" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Frictional Velocity [m/s]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">FRICV</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 197 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 197 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>FRICV:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>74</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="75" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Geopotential height [gpm]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">HGT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 5 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 5 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[gpm]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>HGT:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>75</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="76" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Categorical Rain [0=no; 1=yes]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CRAIN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 192 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 192 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[0=no; 1=yes]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CRAIN:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>76</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="77" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Exchange Coefficient [(kg/(m^3))(m/s)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SFEXC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 195 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 195 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[(kg/(m^3))(m/s)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SFEXC:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>77</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="78" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Aerodynamic conductance [m/s]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">ACOND</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 228 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 228 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>ACOND:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>78</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="79" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Storm Surface Runoff [kg/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">1(Hydrological)</MDI>
+      <MDI key="GRIB_ELEMENT">SSRUN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 193 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 193 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SSRUN:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>79</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="80" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature [C]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">TMP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 0 2 0 98 0 0 1 6 105 0 1 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 0 2 0 98 0 0 0 1 0 0 0 6 105 0 0 0 0 1 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">1-HYBL</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TMP:1 hybrid level:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>80</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="81" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Specific humidity [kg/kg]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SPFH</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 0 2 0 98 0 0 1 6 105 0 1 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 0 2 0 98 0 0 0 1 0 0 0 6 105 0 0 0 0 1 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">1-HYBL</MDI>
+      <MDI key="GRIB_UNIT">[kg/kg]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SPFH:1 hybrid level:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>81</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="82" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">u-component of wind [m/s]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">UGRD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 2 2 0 98 0 0 1 6 105 0 1 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 2 2 0 98 0 0 0 1 0 0 0 6 105 0 0 0 0 1 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">1-HYBL</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>UGRD:1 hybrid level:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>82</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="83" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">v-component of wind [m/s]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">VGRD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">2 3 2 0 98 0 0 1 6 105 0 1 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">2 3 2 0 98 0 0 0 1 0 0 0 6 105 0 0 0 0 1 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">1-HYBL</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>VGRD:1 hybrid level:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>83</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="84" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Geopotential height [gpm]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">HGT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 5 2 0 98 0 0 1 6 105 0 1 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 5 2 0 98 0 0 0 1 0 0 0 6 105 0 0 0 0 1 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">1-HYBL</MDI>
+      <MDI key="GRIB_UNIT">[gpm]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>HGT:1 hybrid level:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>84</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="85" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Direct evaporation from bare soil [W/m^2]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">EVBS</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">3 198 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">3 198 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>EVBS:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>85</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="86" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Canopy water evaporation [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">EVCW</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 229 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 229 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>EVCW:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>86</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="87" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Transpiration [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">TRANS</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 230 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 230 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>TRANS:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>87</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="88" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Sublimination (evaporation from snow) [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SBSNO</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 212 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 212 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SBSNO:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>88</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="89" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snow Cover [%]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SNOWC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 201 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 201 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SNOWC:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>89</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="90" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture content [kg/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">2(Land_Surface)</MDI>
+      <MDI key="GRIB_ELEMENT">SOILM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 3 2 0 98 0 0 1 6 106 2 0 106 2 200</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 3 2 0 98 0 0 0 1 0 0 0 6 106 2 0 0 0 0 106 2 0 0 0 200</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-0.02-DBLL</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SOILM:0-2 m below ground:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>90</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="91" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Downward Short-Wave Rad. Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">DSWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 192 2 0 98 0 0 1 6 8 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 192 2 0 98 0 0 0 1 0 0 0 6 8 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-NTAT</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>DSWRF:top of atmosphere:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>91</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="92" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Clear Sky Upward Long Wave Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CSULF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">5 195 2 0 98 0 0 1 6 8 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">5 195 2 0 98 0 0 0 1 0 0 0 6 8 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-NTAT</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CSULF:top of atmosphere:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>92</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="93" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Clear Sky Upward Solar Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CSUSF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 198 2 0 98 0 0 1 6 8 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 198 2 0 98 0 0 0 1 0 0 0 6 8 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-NTAT</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CSUSF:top of atmosphere:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>93</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="94" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Clear Sky Downward Long Wave Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CSDLF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">5 196 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">5 196 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CSDLF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>94</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="95" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Clear Sky Upward Solar Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CSUSF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 198 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 198 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CSUSF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>95</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="96" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Clear sky Downward Solar Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CSDSF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 196 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 196 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CSDSF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>96</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="97" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Clear Sky Upward Long Wave Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">CSULF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">5 195 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">5 195 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>CSULF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>97</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="98" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snow Phase Change Heat Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SNOHF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">0 192 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">0 192 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SNOHF:surface:6 hour fcst</Description>
+    <NoDataValue>9999</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>98</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="99" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Visible Beam Downward Solar Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">VBDSF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 200 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 200 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>VBDSF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>99</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="100" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Visible Diffuse Downward Solar Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">VDDSF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 201 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 201 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>VDDSF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>100</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="101" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Near IR Beam Downward Solar Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">NBDSF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 202 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 202 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>NBDSF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>101</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="102" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Near IR Diffuse Downward Solar Flux [W/(m^2)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">NDDSF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">4 203 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">4 203 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/(m^2)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>NDDSF:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>102</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="103" blockYSize="1">
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snowfall rate water equivalent [kg/(m^2 s)]</MDI>
+      <MDI key="GRIB_DISCIPLINE">0(Meteorological)</MDI>
+      <MDI key="GRIB_ELEMENT">SRWEQ</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">21600</MDI>
+      <MDI key="GRIB_IDS">CENTER=7(US-NCEP) SUBCENTER=0 MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2023-03-31T00:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)</MDI>
+      <MDI key="GRIB_PDS_PDTN">0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES">1 12 2 0 98 0 0 1 6 1 0 0 255 0 0</MDI>
+      <MDI key="GRIB_PDS_TEMPLATE_NUMBERS">1 12 2 0 98 0 0 0 1 0 0 0 6 1 0 0 0 0 0 255 0 0 0 0 0</MDI>
+      <MDI key="GRIB_REF_TIME">1680220800</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/(m^2 s)]</MDI>
+      <MDI key="GRIB_VALID_TIME">1680242400</MDI>
+    </Metadata>
+    <Description>SRWEQ:surface:6 hour fcst</Description>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://noaa-cfs-pds.s3.amazonaws.com/cfs.20230331/00/6hrly_grib_01/flxf2023033106.01.2023033100.grb2</SourceFilename>
+      <SourceBand>103</SourceBand>
+      <SourceProperties RasterXSize="384" RasterYSize="190" DataType="Float64" BlockXSize="384" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="384" ySize="190" />
+      <DstRect xOff="0" yOff="0" xSize="384" ySize="190" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
+
